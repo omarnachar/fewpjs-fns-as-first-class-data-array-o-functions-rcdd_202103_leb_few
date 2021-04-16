@@ -25,13 +25,11 @@ function unleashDog(dogName, dogBreed) {
 
 const routine = [wakeDog, leashDog, wakeDog, throwFrisbee, walkHome, unleashDog];
 
-function exerciceDog(dog, breed){
-  return routine.map(fn => fn(dog, breed))
+
+function exerciseDog(dogName, dogBreed) {
+    const arr = []
+    for(let i = 0; i < routine.length; i++) {
+        arr.push(routine[i](dogName, dogBreed));
+    }
+    return arr;
 }
-// function exerciseDog(dogName, dogBreed) {
-//     const arr = []
-//     for(let i = 0; i < routine.length; i++) {
-//         arr.push(routine[i](dogName, dogBreed));
-//     }
-//     return arr;
-// }
