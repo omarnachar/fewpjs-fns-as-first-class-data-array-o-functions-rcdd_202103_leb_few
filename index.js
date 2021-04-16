@@ -11,8 +11,8 @@ function walkToPark(dogName, dogBreed) {
   return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 function throwFrisbee(dogName, dogBreed) {
-  console.log(`throw the frisbee for ${dogName} the ${dogBreed}`);
-  return `throw the frisbee for ${dogName} the ${dogBreed}`
+  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  return `Throw the frisbee for ${dogName} the ${dogBreed}`
 }
 function walkHome(dogName, dogBreed) {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
